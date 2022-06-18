@@ -95,7 +95,7 @@ function startGame(roomName) {
     }else{
       emitGameOver(roomName, winner);
       state[roomName]=null;
-      clearInterval(intervallId)
+      clearInterval(intervallId);
     }
   }, 1000 / 60);
 }
